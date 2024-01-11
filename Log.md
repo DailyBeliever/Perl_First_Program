@@ -4,8 +4,8 @@
 - Created Repo
 - Added basic code
 
-### ---
-
+### 1/10/24
+- Added first scaler Data Type!
 
 ### ---
 
