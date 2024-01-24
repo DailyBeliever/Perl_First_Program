@@ -13,11 +13,9 @@
 ### 1/18/24
 - Added debugger, strict, and warnings
 
-### ---
-
-
-### ---
-
+### 1/23/24
+- Added an Array
+- Added user input
 
 ### ---
 
@@ -25,6 +23,5 @@
 ### ---
 
 
-### ---
 
 
