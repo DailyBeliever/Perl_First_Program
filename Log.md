@@ -17,8 +17,11 @@
 - Added an Array
 - Added user input
 
-### ---
-
+### 1/30/24
+- Added some Hash logic
+- Updated Array
+- Added If statement
+- More User Input
 
 ### ---
 
