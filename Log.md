@@ -23,8 +23,13 @@
 - Added If statement
 - More User Input
 
+### 1/31/24
+- Added Functions "sub"
+    main, arrays, hash 
+    ** Note that a main function isn't need in Perl
+
 ### ---
+-
 
-
-
-
+### ---
+-
