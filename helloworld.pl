@@ -4,7 +4,6 @@ use strict;
 # Warnings is for runtime warnings
 use warnings;
 
-
 # For Debugging
 use Data::Dumper;
 
@@ -35,10 +34,12 @@ sub main{
     if ($user_input == 1) 
     {
         hash();
-    } elsif ($user_input == 2) 
+    } 
+    elsif ($user_input == 2) 
     {
         arrays();
-    } else 
+    } 
+    else 
     {
         print "Invalid choice.\n";
     }
