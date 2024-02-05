@@ -77,6 +77,7 @@ sub hash{
     );
 
     ## Add some logic here..
+    
 }
 
 # Progams jumps to main to start
