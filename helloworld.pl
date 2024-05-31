@@ -49,7 +49,7 @@ sub arrays{
 
     # Temporary to show that we are inside the function
     print "You chose Array.\n";
-    print "What would you like to do?"
+    print "What would you like to do?";
 
     # An Array with data
     my @array = (
@@ -66,7 +66,7 @@ sub hash{
 
     # Temporary to show that we are inside the function
     print "You chose Hash.\n";
-    print "What would you like to do?"
+    print "What would you like to do?";
 
     # A Hash
     my %hash = (

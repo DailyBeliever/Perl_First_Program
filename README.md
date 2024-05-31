@@ -8,4 +8,4 @@ This program is not meant for serious applications; its primary purpose is to pr
 ## How To Run
 1) Find the directory where program is located
 2) Run terminal from this directory
-3) Launch the program with  -> Perl Perl_First_Program.pl
+3) Launch the program with  -> Perl helloworld.pl

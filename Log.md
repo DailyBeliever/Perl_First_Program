@@ -28,6 +28,13 @@
     main, arrays, hash 
     ** Note that a main function isn't need in Perl
 
+### 5/30/24 | Perl Revist Starting in 6/24
+- Update README.md
+- Fixed Errors
+
+### ---
+-
+
 ### ---
 -
 
