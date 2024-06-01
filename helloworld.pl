@@ -13,7 +13,7 @@ sub main{
     my $name = "Daily";
 
     print "Welcome to my First Perl Program! \n";
-    print "My name is " . $name . "\n";
+    print "My name is " . $name . "\n"; # Add user input logic here soon
 
     print "When ever your ready lets start the program!\n";
     print "Press any key to continue ";
