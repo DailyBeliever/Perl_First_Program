@@ -24,7 +24,7 @@ sub main{
     chomp($user_input);
 
     print "Would you like to see inside the Array or Hash?";
-    print "1 for Array | 2 for Hash" . "\n";
+    print "1 for Array | 2 for Hash | 3 for Exit \n";
     # STDIN stores user input 
     my $user_input = <STDIN>;
     # Remove the newline character at the end
@@ -38,6 +38,10 @@ sub main{
     elsif ($user_input == 2) 
     {
         arrays();
+    }
+    elsif($user_input == 3 )
+    {
+        exit 0;
     } 
     else 
     {

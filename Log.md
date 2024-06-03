@@ -32,8 +32,8 @@
 - Update README.md
 - Fixed Errors
 
-### ---
--
+### 6/2/24
+- Added Exit Logic
 
 ### ---
 -
