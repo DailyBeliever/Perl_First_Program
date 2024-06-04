@@ -38,7 +38,6 @@
 ### 6/3/24
 - Added name input logic 
 - Cleared screen logic
-- 
 
 ### ---
 -
