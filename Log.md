@@ -35,8 +35,10 @@
 ### 6/2/24
 - Added Exit Logic
 
-### ---
--
+### 6/3/24
+- Added name input logic 
+- Cleared screen logic
+- 
 
 ### ---
 -

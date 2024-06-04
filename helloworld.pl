@@ -20,10 +20,17 @@ sub main{
 
     # STDIN stores user input 
     my $user_input = <STDIN>;
-    # Remove the newline character at the end
-    chomp($user_input);
 
-    print "Would you like to see inside the Array or Hash?";
+    # Clears the screen 
+    system("cls");
+
+    print "What is your name? \n";
+    # STDIN stores user input 
+    my $user_name = <STDIN>;
+    
+    chomp($user_name);
+
+    print $user_name . " see inside Array or Hash?\n";
     print "1 for Array | 2 for Hash | 3 for Exit \n";
     # STDIN stores user input 
     my $user_input = <STDIN>;
