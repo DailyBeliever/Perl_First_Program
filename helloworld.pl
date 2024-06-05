@@ -4,6 +4,9 @@ use strict;
 # Warnings is for runtime warnings
 use warnings;
 
+# Imports feature subroutine 
+use feature 'signatures';
+
 # For Debugging
 use Data::Dumper;
 
@@ -27,8 +30,18 @@ sub main{
     print "What is your name? \n";
     # STDIN stores user input 
     my $user_name = <STDIN>;
-    
+
     chomp($user_name);
+
+    # Sends user input to start subroutine
+    start($user_name);
+
+}
+
+sub start{
+
+    # Retrieve the argument passed to the subroutine 
+    my ($user_name) = @_; 
 
     print $user_name . " see inside Array or Hash?\n";
     print "1 for Array | 2 for Hash | 3 for Exit \n";
@@ -53,6 +66,8 @@ sub main{
     else 
     {
         print "Invalid choice.\n";
+        print "Lets try this again\n";
+        start();
     }
 }
 

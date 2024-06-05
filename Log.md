@@ -39,5 +39,8 @@
 - Added name input logic 
 - Cleared screen logic
 
-### ---
--
+### 6/4/24
+- Added Subroutine Signature
+- Added Start Subroutine
+- Bug Fixes
+- Added Function
