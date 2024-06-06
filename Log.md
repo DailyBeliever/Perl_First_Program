@@ -50,11 +50,25 @@
 - Used "require" to import main file
 - Added more logic to main
 
-### 6/_/24 | Add more logic to hash and arrays
+### 6/_/24
+- Added Say feature
+    - Updated alot of prints to say
+- Updated main file
+- Updated hash and array logic 
+- Bug Fixes
+
+### 6/_/24 | Add some conditions and fix array bug!
 - 
+-
 
 ### 6/_/24
 - 
+-
+
+-### 6/_/24
+- 
+-
 
 ### 6/_/24
 - 
+-
