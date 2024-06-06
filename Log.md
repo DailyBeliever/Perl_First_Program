@@ -44,3 +44,17 @@
 - Added Start Subroutine
 - Bug Fixes
 - Added Function
+
+### 6/5/24
+- Created a new file called main
+- Used "require" to import main file
+- Added more logic to main
+
+### 6/_/24 | Add more logic to hash and arrays
+- 
+
+### 6/_/24
+- 
+
+### 6/_/24
+- 

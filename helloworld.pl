@@ -10,41 +10,21 @@ use feature 'signatures';
 # For Debugging
 use Data::Dumper;
 
-# Main Function, which perl doesn't need
-sub main{
-    # scaler $name is holding string Daily
-    my $name = "Daily";
+# This loads in the data from main
+require './main.pl';
 
-    print "Welcome to my First Perl Program! \n";
-    print "My name is " . $name . "\n"; # Add user input logic here soon
-
-    print "When ever your ready lets start the program!\n";
-    print "Press any key to continue ";
-
-    # STDIN stores user input 
-    my $user_input = <STDIN>;
-
-    # Clears the screen 
-    system("cls");
-
-    print "What is your name? \n";
-    # STDIN stores user input 
-    my $user_name = <STDIN>;
-
-    chomp($user_name);
-
-    # Sends user input to start subroutine
-    start($user_name);
-
-}
+# Progams jumps to main to start
+main();
 
 sub start{
 
     # Retrieve the argument passed to the subroutine 
-    my ($user_name) = @_; 
+    our ($user_name) = @_; 
 
     print $user_name . " see inside Array or Hash?\n";
-    print "1 for Array | 2 for Hash | 3 for Exit \n";
+    print "    1 for Array, 
+    2 for Hash 
+    3 for Exit \n";
     # STDIN stores user input 
     my $user_input = <STDIN>;
     # Remove the newline character at the end
@@ -105,6 +85,3 @@ sub hash{
     ## Add some logic here..
     
 }
-
-# Progams jumps to main to start
-main();
