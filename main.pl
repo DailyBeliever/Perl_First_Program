@@ -18,7 +18,6 @@ sub main{
     system("cls");
 
     say "When ever your ready lets start the program!";
-    say "Press any key to continue or hit 3 to enter";
 
     # STDIN stores user input 
     my $user_input = <STDIN>;

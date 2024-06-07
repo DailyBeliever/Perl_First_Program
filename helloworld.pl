@@ -22,10 +22,10 @@ sub start{
     # Retrieve the argument passed to the subroutine 
     our ($user_name) = @_; 
 
-    say $user_name . " see inside Array or Hash?";
-    say "    1 for Array, 
-    2 for Hash 
-    3 for Exit";
+    say $user_name . ", what would you like to do?";
+    say " \t 1 for Array, 
+    \t 2 for Hash 
+    \t 3 to Exit";
     # STDIN stores user input 
     my $user_input = <STDIN>;
     # Remove the newline character at the end
@@ -61,22 +61,17 @@ sub arrays{
     # Temporary to show that we are inside the function
     say "You chose Array";
     say "What would you like to do?";
-    say "    1 to view Array 
-    ...
-    3 for Exit"; 
+    say "\t 1 to view Array 
+    \t 2 for ...
+    \t 3 to Exit"; 
     
     my $user_input = <STDIN>;
 
     # Clears the screen 
     system("cls");
 
-    
     # An Array with data   #<-- Might need "$" for deref
-    my @ array = [
-        1,
-        "hello",
-        10.2,
-    ];
+    my @ array = (1 , " hello ", 10.2,);
 
     if($user_input == 1 )
     {
@@ -107,9 +102,9 @@ sub hash{
     # Temporary to show that we are inside the function
     say "You chose Hash";
     say "What would you like to do?";
-    say "    1 to view Hash
-    ...
-    3 for Exit"; 
+    say "\t 1 to view Hash 
+    \t 2 for ...
+    \t 3 for Exit"; 
 
     my $user_input = <STDIN>;
 
@@ -143,6 +138,7 @@ sub hash{
         say"Lets try this again";
         start();
     }
+
     ## Add some logic here..
     
 }
