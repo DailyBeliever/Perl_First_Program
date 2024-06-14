@@ -62,7 +62,7 @@ sub arrays{
     say "You chose Array";
     say "What would you like to do?";
     say "\t 1 to view Array 
-    \t 2 for ...
+    \t 2 for adding to database
     \t 3 to Exit"; 
     
     my $user_input = <STDIN>;
@@ -71,7 +71,7 @@ sub arrays{
     system("cls");
 
     # An Array with data   #<-- Might need "$" for deref
-    my @ array = (1 , " hello ", 10.2,);
+    my @array = (1 , " hello ", 10.2,);
 
     if($user_input == 1 )
     {
@@ -79,7 +79,13 @@ sub arrays{
     }
     elsif($user_input == 2 )
     {
-        ## 
+        say "What do you want to add to database?";
+        # This variable is holding user input
+        $user_input = <STDIN>;
+
+        # Adds to array database
+        push(@array, $user_input);
+
     }
 
     elsif($user_input == 3 )

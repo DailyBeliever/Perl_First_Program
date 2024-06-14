@@ -63,8 +63,8 @@
 - Update code
 
 ### 6/_/24
+- Startd user input for array and hash
 - 
--
 
 -### 6/_/24
 - 
