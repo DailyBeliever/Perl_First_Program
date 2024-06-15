@@ -63,7 +63,8 @@ sub arrays{
     say "What would you like to do?";
     say "\t 1 to view Array 
     \t 2 for adding to database
-    \t 3 to Exit"; 
+    \t 3 for adding to array logs
+    \t 4 to Exit"; 
     
     my $user_input = <STDIN>;
 
@@ -87,8 +88,13 @@ sub arrays{
         push(@array, $user_input);
 
     }
+    elsif($user_input == 3)
+    {
 
-    elsif($user_input == 3 )
+
+
+    }
+    elsif($user_input == 4 )
     {
         exit 0;
     } 
@@ -98,6 +104,7 @@ sub arrays{
         say"Lets try this again";
         start();
     }
+
 
     ## Add some logic here..
     
@@ -109,8 +116,9 @@ sub hash{
     say "You chose Hash";
     say "What would you like to do?";
     say "\t 1 to view Hash 
-    \t 2 for ...
-    \t 3 for Exit"; 
+    \t 2 for adding to database
+    \t 3 for adding to hash logs
+    \t 4 for Exit"; 
 
     my $user_input = <STDIN>;
 
@@ -131,10 +139,14 @@ sub hash{
     }
     elsif($user_input == 2 )
     {
-        ## 
+        
     }
 
-    elsif($user_input == 3 )
+    elsif($user_input == 3)
+    {
+
+    }
+    elsif($user_input == 4 )
     {
         exit 0;
     } 

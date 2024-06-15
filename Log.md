@@ -50,23 +50,24 @@
 - Used "require" to import main file
 - Added more logic to main
 
-### 6/_/24
+### 6/6/24
 - Added Say feature
     - Updated alot of prints to say
 - Updated main file
 - Updated hash and array logic 
 - Bug Fixes
 
-### 6/_/24
+### 6/7/24
 - Fixed Array and Hash bug
 - Added "\t" "tab" logic
 - Update code
 
-### 6/_/24
-- Startd user input for array and hash
-- 
+### 6/10/24
+- Started user input for array and hash
+- added to arrays
+- added for hash
 
--### 6/_/24
+-### 6/14/24
 - 
 -
 
