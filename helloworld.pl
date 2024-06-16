@@ -87,7 +87,10 @@ sub arrays{
         # Adds to array database
         push(@array, $user_input);
 
-        # arrays();
+        # Remove newline character
+        chomp($user_input);
+
+        arrays();
 
     }
     elsif($user_input == 3)
