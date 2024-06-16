@@ -18,6 +18,7 @@ sub main{
     system("cls");
 
     say "When ever your ready lets start the program!";
+    print "Press any key to continue ";
 
     # STDIN stores user input 
     my $user_input = <STDIN>;
@@ -36,11 +37,23 @@ sub main{
 
     chomp($user_name);
 
+    # Yout must use eq(equal)here as ""=="" won't work
+    if($user_name eq "")
+    {
+        system("cls");
+        say "You must enter a name!";
+        say "Lets try again!";
+        main();
+    }
+    else
+    {
     # Clears the screen 
     system("cls");
 
     # Sends user input to start subroutine
     start($user_name);
+
+    }
 
 }
 

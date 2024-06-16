@@ -67,13 +67,17 @@
 - added to arrays
 - added for hash
 
--### 6/14/24
-- 
--
+-### 6/15/24
+- Bug Fixes
+- Added more to Arrays
+- Updated main logic
+    - "eq"
+    - added another loop
 
 ### 6/_/24
 - 
 -
+
 ### 6/_/24
 - 
 -

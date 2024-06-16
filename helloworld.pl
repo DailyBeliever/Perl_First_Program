@@ -87,6 +87,8 @@ sub arrays{
         # Adds to array database
         push(@array, $user_input);
 
+        # arrays();
+
     }
     elsif($user_input == 3)
     {
@@ -102,7 +104,7 @@ sub arrays{
     {
         say "Invalid choice.";
         say"Lets try this again";
-        start();
+        arrays();
     }
 
 
@@ -154,7 +156,7 @@ sub hash{
     {
         say "Invalid choice.";
         say"Lets try this again";
-        start();
+        hash();
     }
 
     ## Add some logic here..
