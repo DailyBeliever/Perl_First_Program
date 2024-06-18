@@ -61,10 +61,10 @@ sub arrays{
     # Temporary to show that we are inside the function
     say "You chose Array";
     say "What would you like to do?";
-    say "\t 1 to view Array 
-    \t 2 for adding to database
-    \t 3 for adding to array logs
-    \t 4 to Exit"; 
+    say "\t 1 To view Array 
+    \t 2 To add to database
+    \t 3 To add to array log
+    \t 4 Exit"; 
     
     my $user_input = <STDIN>;
 
@@ -76,21 +76,57 @@ sub arrays{
 
     if($user_input == 1 )
     {
-        say @array;
+        say "Current Array: ";
+        say join(", ", @array);
     }
     elsif($user_input == 2 )
     {
         say "What do you want to add to database?";
         # This variable is holding user input
-        $user_input = <STDIN>;
+        my $user_choice = <STDIN>;
+
+        push(@array, $user_choice);
 
         # Adds to array database
-        push(@array, $user_input);
+        say join(", ", @array);
 
         # Remove newline character
-        chomp($user_input);
+        chomp($user_choice);
 
-        arrays();
+        say "Array Updated!";
+        say "What else did you want to do?";
+        say "\t 1 To add to Array;
+        \t 2 to Exit"; 
+
+        my $user_input = <STDIN>;
+
+        if($user_input == 1)
+        {
+
+        say "What do you want to add to database?";
+        # This variable is holding user input
+        my $user_choice = <STDIN>;
+
+        push(@array, $user_choice);
+
+        # Adds to array database
+        say join(", ", @array);
+
+        # Remove newline character
+        chomp($user_choice);
+
+        say "Array Updated!";
+        say "What else did you want to do?";
+
+        }
+        if($user_input == 2)
+        {
+            say "This will remove the inputs to the array, ok?";
+            say "Press any key to continue"    ;    
+            my $userinput = <STDIN>;
+
+            arrays();
+        }
 
     }
     elsif($user_input == 3)
@@ -120,10 +156,10 @@ sub hash{
     # Temporary to show that we are inside the function
     say "You chose Hash";
     say "What would you like to do?";
-    say "\t 1 to view Hash 
-    \t 2 for adding to database
-    \t 3 for adding to hash logs
-    \t 4 for Exit"; 
+    say "\t 1 To view Hash
+    \t 2 To add to database
+    \t 3 To add to hash log
+    \t 4 Exit"; 
 
     my $user_input = <STDIN>;
 

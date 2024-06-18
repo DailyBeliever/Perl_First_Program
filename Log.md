@@ -78,11 +78,21 @@
 - Bug Fixes
 -
 
+### 6/17/24
+- Added to Hash
+ - Another Loop
+- Bug Fixes
+- Update naming standards
+
+-### 6/_/24 | Figure out how to revert to the loop everytime
+- 
+-
+
 ### 6/_/24
 - 
 -
 
--### 6/_/24
+### 6/_/24
 - 
 -
 
