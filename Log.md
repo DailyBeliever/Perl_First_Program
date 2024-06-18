@@ -79,7 +79,7 @@
 -
 
 ### 6/17/24
-- Added to Hash
+- Added to Array
  - Another Loop
 - Bug Fixes
 - Update naming standards
