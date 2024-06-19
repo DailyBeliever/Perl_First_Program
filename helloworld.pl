@@ -129,10 +129,24 @@ sub arrays{
         }
 
     }
-    elsif($user_input == 3)
-    {
+    elsif ($user_input == 3) {
+        print "Please enter the content you want to add to the file: ";
+        my $user_content = <STDIN>;
+        chomp($user_content);  # Remove newline character from the end of the input
 
+        # Open the file for appending
+        open(my $fh, '>>', 'array_log.txt') or die "Could not open file 'array_log.txt' $!";
 
+        # Write the user input to the file
+        print $fh "$user_content\n";
+
+        # Close the file handle
+        close($fh);
+
+        say "Content added to array_log.txt.\n";
+
+        # Go back to arrays
+        arrays();
 
     }
     elsif($user_input == 4 )

@@ -84,11 +84,11 @@
 - Bug Fixes
 - Update naming standards
 
--### 6/_/24 | Figure out how to revert to the loop everytime
-- 
+-### 6/18/24
+- Added info for array log
 -
 
-### 6/_/24
+### 6/_/24 | Figure out how to revert to the loop everytime
 - 
 -
 
