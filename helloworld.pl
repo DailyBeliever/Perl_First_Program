@@ -25,7 +25,8 @@ sub start{
     say $user_name . ", what would you like to do?";
     say " \t 1 for Array, 
     \t 2 for Hash 
-    \t 3 to Exit";
+    \t 3 for Perl Version
+    \t 4 to Exit";
     # STDIN stores user input 
     my $user_input = <STDIN>;
     # Remove the newline character at the end
@@ -44,7 +45,20 @@ sub start{
         system("cls");
         hash();
     }
-    elsif($user_input == 3 )
+    elsif ($user_input == 3) 
+    {
+        # Clears the screen 
+        system("cls");
+        say $];
+        print "Press any key to continue ";
+        my $user_input = <STDIN>;
+        # Clears the screen 
+        system("cls");
+
+        # Repass the user_name
+        start($user_name);
+    }
+    elsif($user_input == 4)
     {
         exit 0;
     } 
@@ -52,7 +66,7 @@ sub start{
     {
         say "Invalid choice.";
         say"Lets try this again";
-        start();
+        start($user_name);
     }
 }
 
@@ -134,14 +148,14 @@ sub arrays{
         my $user_content = <STDIN>;
         chomp($user_content);  # Remove newline character from the end of the input
 
-        # Open the file for appending
-        open(my $fh, '>>', 'array_log.txt') or die "Could not open file 'array_log.txt' $!";
+        # Open the file for appending | rd is a var
+        open(my $rd, '>>', 'array_log.txt') or die "Could not open file 'array_log.txt' $!";
 
-        # Write the user input to the file
-        print $fh "$user_content\n";
+        # Write the user input to the file | rd is a var
+        print $rd "$user_content\n";
 
         # Close the file handle
-        close($fh);
+        close($rd);
 
         say "Content added to array_log.txt.\n";
 
@@ -196,9 +210,24 @@ sub hash{
     {
         
     }
+    elsif ($user_input == 3) {
+        print "Please enter the content you want to add to the file: ";
+        my $user_content = <STDIN>;
+        chomp($user_content);  # Remove newline character from the end of the input
 
-    elsif($user_input == 3)
-    {
+        # Open the file for appending | rd is a var
+        open(my $rd, '>>', 'array_log.txt') or die "Could not open file 'array_log.txt' $!";
+
+        # Write the user input to the file | rd is a var
+        print $rd "$user_content\n";
+
+        # Close the file handle
+        close($rd);
+
+        say "Content added to hash_log.txt.\n";
+
+        # Go back to arrays
+        hash();
 
     }
     elsif($user_input == 4 )

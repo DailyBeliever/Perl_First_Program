@@ -86,9 +86,22 @@
 
 -### 6/18/24
 - Added info for array log
+
+### 6/19/24
+- Added info for hash log
+- Change vars for log logic
+- Added Perl Version for fun
+- Bug Fixes
+
+### 6/_/24 | Figure out how to revert to the loop everytime | Also add more logic to view in logs..
+- 
 -
 
-### 6/_/24 | Figure out how to revert to the loop everytime
+### 6/_/24
+- 
+-
+
+### 6/_/24
 - 
 -
 
