@@ -23,10 +23,11 @@ sub start{
     our ($user_name) = @_; 
 
     say $user_name . ", what would you like to do?";
-    say " \t 1 for Array, 
-    \t 2 for Hash 
-    \t 3 for Perl Version
-    \t 4 to Exit";
+    say " \t 1 For Array, 
+    \t 2 For Hash 
+    \t 3 For Perl Version
+    \t 4 For Path and ENV
+    \t 5 to Exit";
     # STDIN stores user input 
     my $user_input = <STDIN>;
     # Remove the newline character at the end
@@ -49,6 +50,20 @@ sub start{
     {
         # Clears the screen 
         system("cls");
+        say @INC;
+        say \%ENV;
+        print "Press any key to continue ";
+        my $user_input = <STDIN>;
+        # Clears the screen 
+        system("cls");
+
+        # Repass the user_name
+        start($user_name);
+    }
+    elsif ($user_input == 4) 
+    {
+        # Clears the screen 
+        system("cls");
         say $];
         print "Press any key to continue ";
         my $user_input = <STDIN>;
@@ -58,7 +73,7 @@ sub start{
         # Repass the user_name
         start($user_name);
     }
-    elsif($user_input == 4)
+    elsif($user_input == 5)
     {
         exit 0;
     } 
@@ -174,9 +189,6 @@ sub arrays{
         arrays();
     }
 
-
-    ## Add some logic here..
-    
 }
 
 sub hash{
@@ -240,7 +252,5 @@ sub hash{
         say"Lets try this again";
         hash();
     }
-
-    ## Add some logic here..
     
 }

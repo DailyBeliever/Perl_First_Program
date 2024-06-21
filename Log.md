@@ -93,11 +93,11 @@
 - Added Perl Version for fun
 - Bug Fixes
 
-### 6/_/24 | Figure out how to revert to the loop everytime | Also add more logic to view in logs..
-- 
--
+### 6/20/24
+- Updated start subroutine
+- Added PATH and ENV under start();
 
-### 6/_/24
+### 6/_/24 | Figure out how to revert to the loop everytime | Also add more logic to view in logs..
 - 
 -
 
