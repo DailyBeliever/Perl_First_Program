@@ -97,18 +97,18 @@
 - Updated start subroutine
 - Added PATH and ENV under start();
 
-### 6/_/24 | Figure out how to revert to the loop everytime | Also add more logic to view in logs..
+### 8/_/24 | Figure out how to revert to the loop everytime | Also add more logic to view in logs..
 - 
 -
 
-### 6/_/24
+### 8/_/24
 - 
 -
 
-### 6/_/24
+### 8/_/24
 - 
 -
 
-### 6/_/24
+### /_/24
 - 
--
+- Finished For Now
