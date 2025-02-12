@@ -97,23 +97,22 @@
 - Updated start subroutine
 - Added PATH and ENV under start();
 
-### 1/_/25 | Figure out how to revert to the loop everytime | Also add more logic to view in logs.. | Add more logic on inputting different .pl files
+### 2/_/25 | Figure out how to revert to the loop everytime | Also add more logic to view in logs.. | Add more logic on inputting different .pl files
 - 
 -
 
-### 1/_/25
+### 2/_/25
 - 
 -
 
-### 1/_/25
+### 3/_/25
 - 
 -
 
-### 1/_/25
+### 3/_/25
 - 
 - 
-
 
 
 Finished For Now 6/20/24
-    Will start up again in January 
+    Will start up again in February
